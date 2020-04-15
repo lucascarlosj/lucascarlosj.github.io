@@ -1,0 +1,227 @@
+body {
+  font-family: sans-serif;
+  background-color: whitesmoke;
+  width: 1903px;
+  margin: auto;
+}
+
+header {
+  background-color: #162E58;
+}
+
+.navbar {
+  display: flex;
+  padding: 20px 30px ;
+  justify-content: space-between;
+}
+
+.navbar img {
+  width: 15px;
+}
+
+.back-buttom {
+  display: flex;
+  flex-grow: 1;
+}
+
+.back-buttom h3 {
+  margin-left: 1.5%;
+  color: white;
+  font-size: 16px;
+  align-self: flex-start;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  color: white;
+  font-size: 13px;
+  text-decoration: none;
+  padding: 25px;
+  display: inline-block;
+}
+
+nav a:hover{
+  background-color: rgba(0, 0, 0, 0.1);
+  border-bottom: 2px solid white;
+} 
+
+.ativa {
+  border-bottom:2px solid white;
+}
+
+.container {
+  width: 35%;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.container-temporada {
+  box-shadow: 0px 0px 5px grey;
+  background-color: whitesmoke;
+  padding: 13px;
+}
+
+.container button {
+  margin-top: 5px;
+  border: none;
+  color: #4285f4;
+  font-weight: bolder;
+  font-size: 13px;
+  margin-left: -3px;
+}
+
+
+.container-tabela {
+  padding: 13px;
+}
+
+.container-tabela table {
+  width: 100%;
+}
+
+.container-tabela h3 {
+  padding: 10px 0px;
+  font-weight: bolder;
+}
+
+table {
+  font-size: 13.5px;
+}
+
+th {
+  padding: 3px;
+  text-align: center;
+}
+
+th:first-child {
+  text-align: left;
+}
+
+td {
+  border-top: 1px solid rgba(167, 167, 167, 0.2);
+  align-items: center;
+  text-align: center;
+  padding: 10px 0px;
+}
+
+td:nth-child(2) {
+  text-align: left;
+  vertical-align: center;
+}
+
+td:nth-child(2) img {
+  vertical-align: middle;
+  margin-right: 3%;
+}
+
+tr {
+  padding-top: 20px;
+} 
+
+.container-button {
+  background-color: #f8f9fa;
+  padding: 6px 8px 10px;
+  border-radius: 4px;
+  border: 1px solid #ebebeb;
+  margin: 8px;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.button_page {
+  margin-top: -10.3%;
+  margin-left: 50%;
+  vertical-align: middle;
+}
+
+.button_page h3 {
+  font-weight: bolder;
+  line-height: 30px;
+}
+
+.button_page img {
+  vertical-align: middle;
+  margin-right: 3%;
+}
+
+.stat {
+  background-color: #fff;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,.1);
+  padding: 8px 9px 8px 8px;
+}
+
+.container_jogos {
+  width: 35%;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.container_cab_jogos {
+  border: 1px solid rgb(218, 217, 217);
+  background-color: whitesmoke;
+  padding: 13px;
+  
+}
+
+.container_tabela_jogos td {
+  padding-left: 4%;
+}
+
+.container_tabela_jogos img {
+  padding: 0px 50x 0px 0px;
+
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.column img {
+  padding-right: 10px;
+}
+
+.colum {
+  padding: 13px 13px;
+  width: 305px;
+  border: 1px solid rgb(219, 219, 219);
+}
+
+.fim{
+  float: right;
+  width: 20%;
+  margin-top: 14px;
+  text-align: center;
+  font-size: 13px;
+}
+
+.placar {
+  float: right;
+  width: 20%;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 13px;
+}
+
+
+.colum_buttom {
+  padding: 13px 13px;
+  width: 100%;
+  border: 1px solid rgb(219, 219, 219);
+  font-style: italic;
+  font-size: 15px;
+}
+

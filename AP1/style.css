@@ -1,9 +1,11 @@
-body {
-    background-color: white;
+* {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    max-width: 1800px;  
-    margin: auto;
-    font-weight: bolder;
+    font-weight: bolder; 
+}
+
+body {
+    width: 1800px;
+    margin: auto;   
 }
 
 #tudo {
@@ -59,11 +61,11 @@ aside {
     width: 45%;
     float: left;
     padding: 15px; 
-    margin-top:-634px; 
+    margin-top:-615px; 
     margin-right: auto;
     margin-bottom: auto;
     margin-left: 504px;
-    height: 603px;
+    height: 583px;
 }
 
 aside img {

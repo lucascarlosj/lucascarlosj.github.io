@@ -1,0 +1,860 @@
+/* Fonte Family Nunito*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html, body{
+  height: 100%;
+}
+body{
+    font-family: 'Nunito', sans-serif, arial, verdana;
+    margin: 0;
+}
+
+/*-------------------COMPORTAMENTOS PADRÃO-----------------*/
+.logotipo{
+    min-width: 240px;
+    max-width: 280px;
+}
+ul{
+    list-style-type: none;
+  }
+a{
+    padding: 16px 0;
+    text-decoration: none;
+}
+.navbar{
+  margin-bottom: 0px;
+}
+.container{
+  
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 24px;
+}
+
+/*---------------------HEADER-------------------------------*/
+
+.header-bg{
+  background-color: #5C88DA;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  max-width: 1160px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header a{
+  display: inline-block;
+}
+
+#btn-login{
+ 
+  color: #ffffff;
+  font-size: 16px;
+  width: 120px;
+  padding: 6px 9px;
+  border-radius: 10px;
+  background-color: #ffffff5b;
+  outline: none;
+  font-weight: bold;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.7);
+  border: #ffffff5b;
+  cursor: pointer;
+  }
+  /* Animação  Hover */
+  #btn-login:hover {
+  transform: scale3d(1.1, 1.1, 0.5);
+  }
+
+.navbar-header{
+  display: flex;
+  justify-content: start;
+}
+.navbar-collapse li{
+  padding: -50px;
+}
+
+/*-------------------NAVBAR------------------------------------*/
+nav{
+  justify-content: space-around;
+  margin: auto;
+}
+nav a{
+  position: relative;
+  text-decoration: none;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  padding: 0 10;
+}
+nav a:after{
+  content: "";
+  position: absolute;
+  background-color: #fbc23d;
+  height: 5px;
+  width: 0;
+  left: 0px;
+  bottom: -2px;
+  transition: 0.5s;
+}
+nav a:hover{
+  color: #fff;
+}
+nav a:hover:after{
+  width: 100%;
+}
+#teste{
+  margin: 0px;
+  padding: 0px;
+}
+
+/*------------------FIM NAVBAR--------------------*/
+
+/*------------------SESSAO HERO---------------------------*/
+
+
+.form-passagens{
+  position: absolute;
+  z-index: 2;
+  translate: center;
+  width: 100%;
+  top: 0;
+  
+}
+.carrossel{
+  position: relative;
+}
+
+/*---------------------CAMPO BUSCAR PASSAGENS-----------------------*/
+
+.form-passagens{
+  background-color: #f0f2f97c;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+   transition: 0.3s;
+   border-radius: 4px;
+   padding-top: 8px;
+   padding-bottom: 8px;
+ }
+ .form-passagens-2{
+  background-color: #f0f2f97c;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+   transition: 0.3s;
+   border-radius: 4px;
+   padding-top: 8px;
+   padding-bottom: 8px;
+ }
+
+.rotulo{
+  color: #525252;
+  font-size: 14px;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.caixa-texto{
+  color: #525252;
+  border-radius: 3px;
+  font-size: 14px;
+  padding: 6px 2px;
+  border: 1px solid #d1d1d1;
+  background-color: #fafafa;
+  font-family: 'Nunito', sans-serif, arial, verdana;
+  outline: none;
+}
+.caixa-data{
+  color: #525252;
+  border-radius: 3px;
+  font-size: 14px;
+  padding: 6px 2px;
+  border: 1px solid #d1d1d1;
+  background-color: #fafafa;
+  font-family: 'Nunito', sans-serif, arial, verdana;
+  outline: none;
+}
+
+.caixa-texto:hover{
+  border: 1px solid #1E90FF;
+}
+.caixa-texto:focus{
+  border: 1px solid #1E90FF;
+  box-shadow: 0 0 4px rgba(30, 144, 255, 0.7)
+}
+#btn-buscar{
+  color: #ffffff;
+  font-size: 16px;
+  padding: 6px 24px;
+  border: 1px solid #b2aeae;
+  background-color: #2740d1;
+  outline: none;
+  font-weight: 600;
+  border-radius: 5px;
+}
+/*-------------------SESSAO INPUT EMAIL - PROMOCIONAL-------*/
+
+
+.form-email{
+ background-color: #2740d1;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+  border-radius: 3px;
+  margin-bottom: 16px;
+  margin-top: 16px;
+}
+.form-email h3{
+  text-align: center;
+  color: #fbc23d;
+  font-weight: bolder;
+  padding: 8px;
+  margin:0px;
+}
+.form-email p{
+  text-align: center;
+  color: #FFFFFF;
+  font-weight: bolder;
+  padding: 8px;
+}
+.for-email a{
+  text-decoration: none;
+  color: #ffffff;
+}
+#btn-enviar{
+  color: #000000;
+  font-size: 16px;
+  padding: 6px 24px;
+  border: 1px solid #b2aeae;
+  background-color: #ffffff;
+  outline: none;
+  font-weight: 600;
+  border-radius: 5px;
+}
+.input-group-2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+
+}
+.input-group-2 input{
+  max-width: 300px;
+}
+
+
+/*--------------------- Estilização dos Card's-------------------------*/
+.txt-sessao-cards h2{
+  text-align: center;
+  font-weight: bolder;
+  padding: 8px 4px;
+  margin-top: 0px;
+  margin-bottom: 8px;
+}
+.txt-sessao-cards p{
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 8px 4px;
+  margin: 0px;
+}
+
+.container-card {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 8px;
+}
+/* Card */
+.card {
+    width: 240px;
+    height: 450px;
+    background-color: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+    transition: 0.3s;
+    margin-top: 32px;
+   
+    
+}
+/* Card Header*/
+  .card-header {
+    width: 100%;
+    height: 280px;
+    overflow: hidden;
+}
+.card-img {
+    min-width: 100%;
+    width: auto;
+    height: 100%;
+    position: relative;
+  }
+  /* Card Body */
+  .card-body {
+    height: 120px;
+    text-align: center;
+    font-family: 'Nunito';
+  }
+
+  .porcentagem-promocao{
+    width: 50%;
+    background-color: #ebebeb71;
+    color: #FFFFFF;
+    position: absolute;
+    border-radius: 15px 15px 15px 15px;
+    margin-top: -50px;
+    margin-left: 15px;
+    
+  }
+  .porcentagem-promocao p{
+    margin-left: 25px;
+    margin-top: 5px;
+  }
+  .porcentagem-promocao h3{
+    margin-left: 25px;
+  }
+  .card-preco{
+    color: #fbc23d;
+    font-size:36px;
+    font-weight: bolder;
+    margin-top: 0px;
+  }
+.card-body{
+  padding-top: 15px;
+}
+
+ .card-body p{
+  font-size: 14px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  width: 100%;
+ } 
+ .card-body .card-texto-cidade{
+  font-weight: bold;
+ }
+  .txt-promo{
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  /* Card Footer */
+  .card-footer {
+    text-align: center;
+    background-color: #000;
+    
+  }
+  
+  .card-footer a {
+    color: #fff;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    font-family: 'Nunito';
+    font-weight: 600;
+  }
+  
+  .card-1 .card-footer {
+    background-color: rgb(251, 194,61);
+  }
+  /* Animação Hover */
+  .card:hover {
+    transform: scale3d(1.1, 1.1, 0.5);
+  }
+/*-------------------------Tipo de Poltronas--------------------------------------*/
+.tipo-poltronas{
+  background-image: url("https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_768/https://blog.aguiabranca.com.br/wp-content/uploads/2022/07/qo0JC6Bo-768x512.jpeg");
+  background-repeat: no-repeat;
+  background-position: center 100%;
+  height: 500px;
+  background-size: cover;
+  padding: 0px;
+  position: relative;
+  
+}
+.tipo-poltronas h3{
+  margin-top: 0;
+  text-align: center;
+}
+.tipo-poltronas p{
+  text-align: center;
+  font-size: 16px;
+
+}
+
+.poltronas-banner {
+  color: #FFF;
+  background-color: #2741d17e;
+  padding: 20px;
+  width: 80%;
+  border-radius: 8px;
+  position: absolute; 
+  top: 50% ;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#btn-saibamais{
+  color: #000000;
+  font-size: 16px;
+  padding: 6px 24px;
+  border: 1px solid #b2aeae;
+  background-color: #ffffff;
+  outline: none;
+  font-weight: 600;
+  border-radius: 3px;
+  justify-content: center;
+  width: 100%;
+  align-self: center;
+ 
+  
+}
+#btn-saibamais:hover {
+  transform: scale3d(1.1, 1.1, 0.5);
+}
+
+/*-------------------------CONTEUDO TEXTO TELAS +800PX-------------------------------*/
+.conteudo{
+    display: flex;
+    flex-wrap: wrap;
+}
+.conteudo h1{
+    color: #FBC23D;
+    text-align: center;
+}
+.conteudo p{
+    color: #000000;
+    text-align: start;
+}
+
+/*------------------------FAQ-------------------------------------------------------------*/
+.panel-default {
+  border-color: #e8ebf0;
+  background-color: #ffffff;
+}
+.panel-heading{
+  background-color: #2740d1;;
+}
+.panel-default>.panel-heading {
+  color: #000000;
+  background-color: #ffffff;
+  
+}
+.faq{
+ text-align: center;
+ margin-top: 32px;
+ margin-bottom: 32px;
+}
+.faq h2{
+  margin-bottom: 16px;
+  
+}
+.faq h4{
+  text-decoration: none;
+}
+
+
+/*------------------------------SESSAO PAINEL---------------------------------------*/
+
+/*___________PANEL ATENDIMENTO________*/
+
+.sessao-panel{
+    display: grid;
+    gap: 16px;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.panel-body-1{
+    display: grid;
+    gap: 16px;
+    grid-template-columns: 1fr 2fr;
+    
+    place-items: center;
+}
+.panel-body-1 h3{
+    text-align: center;
+}
+#btn-panel-1{
+   place-self: center;
+   grid-column: 2;
+   width: 25%;
+   margin-bottom: 8px;
+   background-color: #2741d17e;
+}
+
+/*___________PANEL FORMAS DE PAGAMENTO________*/
+
+.panel-body-2{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    place-items: center;
+ 
+}
+
+.panel-body-2 p{
+    display: flex;
+    text-align: center;
+    font-size: 14px;
+}
+.panel-body-2 ul{
+    padding: 0px;
+}
+.card-bandeiras{
+    width: 50px;
+    margin: 8px;
+}
+
+/*---------------SESSAO FOOTER-----------------------*/
+
+.dados-empresa{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color:#5C88DA;
+    color: #fff;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.7);
+    
+    
+
+}
+.dados-empresa div{
+    text-align: center;
+}
+.content-dados-empresa p{
+    width: 50%;
+    text-align: center;
+
+}
+.dados-empresa img{
+    flex-direction: row;
+    width: 100%;
+    display: inline-block;
+}
+
+/*____________________ESTILOS MIDIAS SOCIAIS_____________________________*/
+.midias-sociais{
+    display: grid;
+    background-color: #ebebeb;
+}
+.midias-sociais h3{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 8px 4px;
+}
+.icons-midias-sociais{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.icons-midias-sociais a{
+    margin: 14px;
+}
+
+/*________________ESTILOS DA SECTION FOOTER - LINKS DE NAVEGAÇÃO __________*/
+.bg-links{
+  background-color: #ebebeb71;
+}
+.section-links{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+padding: 20px;
+max-width: 1160px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.rodape-mobile{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    background-color: #ebebeb;  
+}
+.section-links ul, .rodape-mobile ul{
+    list-style-type: none;
+    padding: 0px;
+}
+.section-links a, .rodape-mobile a{
+    color: black;
+    font-size: 14px; 
+}
+.section-links h4{
+    font-weight: bold;
+    padding: 8px;
+}
+.section-links a {
+    padding: 8px;
+}
+
+
+/*_______FIM________*/
+
+/*________________ESTILOS DA SECTION FOOTER - COPY __________*/
+#copy{
+    text-align: center;
+    background-color: #2740d1;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+  }
+/*______FIM_________*/
+
+/*-----------------------ANIMAÇOES---------------------------*/
+
+
+/*___________ Botão whatsapp__________________________________*/
+#div-fixa{
+    position: fixed;
+    bottom: 20px;
+    margin: 0 20px;
+    background-color: rgb(73, 227, 107);
+    width: 280px;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  #div-fixa.shrink{
+    width: 50px;
+    transition: 0.5s all;
+    overflow: hidden;
+  }
+  #div-fixa img{
+    width: 50px;
+    height: 50px;
+  }
+  
+  #div-fixa a .flex-itens{
+    display: flex;
+    align-items: center;
+  }
+  #div-fixa a .flex-itens span{
+    display: block;
+    color: #000000;
+    font-size: 14px;
+    font-family: 'Nunito';
+    font-weight: bold;
+    margin-left: 5px;
+    min-width: 170px;
+    opacity: 0;
+  }
+  #div-fixa a .flex-itens span.aparecer{
+    transition: 0.5s all;
+    opacity: 1;
+  }
+  
+  .flutuar{
+    animation-name: flutuar;
+    animation-duration: 0.7s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: easy-in-out;
+  
+  }
+  @keyframes flutuar{
+    from{
+      transform: translate3d(0, 0, 0);
+      filter: brightness(100%);
+    }
+    to{
+      transform: translate3d(0, -15px, 0);
+      filter: brightness(140%);
+    }
+  }
+
+  /*_____________Scrool suave volta ao topo___________*/
+  .topo{
+    position: fixed;
+    bottom: 20px;
+    right: -500px;
+    transition: .4s all;
+  }
+  #icone-voltatopo{
+    width: 50px;
+    height: 50px;
+  }
+  .show-button .topo{
+    right: 20px;
+    transition: .4s all;
+  }
+
+
+
+/*---------------SESSAO MEDIA QUERIES-----------------------*/
+@media(max-width:428px){
+  .logotipo{
+    width: 180px;
+  }
+  .form-email h3{
+    padding: 8px;
+    margin:0px;
+    font-size: 16px;
+   
+  }
+  .form-email p{
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: lighter;
+    padding: 4px;
+  }
+  #select{
+    width: 300px;
+  }
+}
+@media(min-width: 590px){
+  .poltronas-banner #btn-saibamais{
+    max-width: 200px;
+    margin-left: 33.33%;
+    
+  }
+}
+@media(max-width: 670px){
+  #select{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+  }
+}
+@media(max-width: 690px){
+
+  .input-group-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 20px;
+    padding-left: 20px;
+  } 
+  .input-group-2 #btn-enviar{
+    width: 300px;
+  }
+  #select{
+    width: 300px;
+  }
+  #btn-buscar{
+    min-width: 300px;
+  }
+}
+
+
+
+@media( min-width: 790px){
+    .rodape-mobile{
+        display: none;
+    }
+}
+@media( max-width: 790px){
+    .section-links{
+        display: none;
+    }
+}
+@media(max-width: 600px ){
+    #btn-panel-1{
+        width: 80%;
+    }
+    
+}
+@media(max-width: 770px){
+  .card-header{
+    height: 160px;
+  }
+  .card{
+    width: 230;
+    height: 320px;
+  }
+  #btn-enviar{
+    display: block;
+    width: 250px;
+  }
+ 
+  
+}
+
+
+@media(max-width: 720px){
+  .carrossel{
+    display: none;
+  }
+  input{
+    display: inline-block;
+    width: 100%;
+  }
+  #btn-buscar{
+    width: 40%;
+  }
+  #btn-enviar{
+    width: 40%;
+  }
+}
+@media(min-width: 720px){
+  .form-passagens-2{
+    display: none;
+  }
+  .carrossel-2{
+    display: none;
+  }
+}
+
+
+@media( min-width: 800px){
+    .section-links{
+        grid-template-columns: auto auto auto auto;
+    }
+    
+}
+
+@media( max-width: 800px){
+    .conteudo{
+        display: none;   
+    }
+    
+}
+
+@media(min-width: 900px){
+    .icons-midias-sociais a{
+        margin: 24px;
+    }
+}
+@media(max-width: 980px){
+    .dados-empresa{
+        grid-template-columns: 1fr 1fr;
+    }
+    .dados-empresa p{
+        grid-column: 2;
+    }
+    .sessao-panel{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .card-header{
+      height: 200px;
+    }
+    .card{
+      width: 230;
+      height: 360px;
+    }
+    .form-passagens{
+      padding: 0px;
+      
+    }
+  
+    
+}
+
+
+
+
+
+
+
+

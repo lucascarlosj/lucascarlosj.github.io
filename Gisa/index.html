@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title><title>Águia Branca| Passagem de ônibus: Segurança e conforto aguiabranca.com.br</title>
+
+   
+
+   <!--Jquery-->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+   <!-- Latest compiled and minified CSS -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+   <!-- Optional theme -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+   <!-- Latest compiled and minified JavaScript -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <!--Jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+   <!--CSS SCSS e JS-->
+   <link rel="stylesheet" type="text/css" href="assets/style.css.css">
+   <script src="assets/main.js"></script>
+   <link rel="stylesheet" href="assets/main.scss">
+
+
+</head>
+<body>
+    <header class="header-bg">
+        <div class="header">
+            <img src="assets/img/logo.svg" class="logotipo" alt="">
+            <button  id="btn-login" class="open-modal">ENTRAR</button>
+        </div>  
+    </header>
+    
+    <main>
+         <!---------------------------------- NAV BAR ---------------------------------------------------------->
+        <section class="container">
+            <div class="row">
+                <nav class="navbar navbar-default ">
+                    <div class="container-fluid cor-padrao">
+                                        <!-- Brand and toggle get grouped for better mobile display -->
+                                        <div class="navbar-header col-xs-12 col-sm-12" id="teste">
+                                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                            <span class="sr-only"></span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                            </button>
+                                        </div>
+                                    <div class="collapse navbar-collapse col-md-12 col-lg-12" id="bs-example-navbar-collapse-1">
+                                            <ul class="nav navbar-nav">
+                                            <li class="dropdown">
+                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Para Sua Viagem <span class="caret"></span></a>
+                                                <ul class="dropdown-menu">
+                                                <li><a href="#">Acompanhe Sua Viagem</a></li>
+                                                <li role="separator" class="divider"></li>
+                                                <li><a href="#">Bagagem</a></li>
+                                                <li role="separator" class="divider"></li>
+                                                <li><a href="#">Dicas Para Viajar</a></li>
+                                                <li role="separator" class="divider"></li>
+                                                <li><a href="#">Passagem Digital</a></li>
+                                                <li role="separator" class="divider"></li>
+                                                <li><a href="#">Documentos Para Viajar</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="dropdown">
+                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Informações <span class="caret"></span></a>
+                                                <ul class="dropdown-menu">
+                                                <li><a href="#">Atendimento</a></li>
+                                                <li role="separator" class="divider"></li>
+                                                <li><a href="#">Agências Autorizadas</a></li>
+                                                <li role="separator" class="divider"></li>
+                                                <li><a href="#">Documentos Para Viajar</a></li>
+                                                <li role="separator" class="divider"></li>
+                                                <li><a href="#">Formas De Pagamento</a></li>
+                                                <li role="separator" class="divider"></li>
+                                                <li><a href="#">Gratuidade Nas Passagens</a></li>
+                                                <li role="separator" class="divider"></li>
+                                                <li><a href="#">Noticias</a></li>
+                                                <li role="separator" class="divider"></li>
+                                                <li><a href="#">Regulamentos E Promoções</a></li>
+                                                <li role="separator" class="divider"></li>
+                                                <li><a href="#">Seguro Intermunicipal</a></li>
+                                                <li role="separator" class="divider"></li>
+                                                <li><a href="#">Seguro Internacional Facultativo</a></li>
+                                                <li role="separator" class="divider"></li>
+                                                <li><a href="#">Troca Remarcação e Cancelamento</a></li>
+                                                <li role="separator" class="divider"></li>
+                                                <li><a href="#">Venda De Ônibus</a></li>
+                                                <li role="separator" class="divider"></li>
+                                                <li><a href="#">Viagens Com Animais</a></li>
+                                                <li role="separator" class="divider"></li>
+                                                <li><a href="#">Viagens Com Menores</a></li>
+                                                <li role="separator" class="divider"></li>
+                                                <li><a href="#">Embarque Já</a></li>
+                                                <li role="separator" class="divider"></li>
+                                                <li><a href="#">Política De Privacidade E Tratamento De Dados Pessoais</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="https://www.aguiabranca.com.br/aluguel-de-onibus">Aluguel De ônibus</a></li>
+                                            <li><a href="https://www.aguiabranca.com.br/encomendas">Encomendas</a></li>
+                                            <li class="dropdown">
+                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sobre Nós <span class="caret"></span></a>
+                                                <ul class="dropdown-menu">
+                                                <li><a href="https://www.aguiabranca.com.br/quem-somos">Quem somos</a></li>
+                                                <li role="separator" class="divider"></li>
+                                                <li><a href="https://www.aguiabranca.com.br/nossa-historia">Nossa História</a></li>
+                                                <li role="separator" class="divider"></li>
+                                                <li><a href="https://www.aguiabranca.com.br/nossa-frota">Nossa Frota</a></li>
+                                                <li role="separator" class="divider"></li>
+                                                <li><a href="https://www.aguiabranca.com.br/seguranca">Segurança</a></li>
+                                                <li role="separator" class="divider"></li>
+                                                <li><a href="https://www.aguiabranca.com.br/programa-de-integridade">Programa de Integridade</a></li>
+                                                <li role="separator" class="divider"></li>
+                                                <li><a href="https://www.aguiabranca.com.br/expresso-brasileiro">Expresso Brasileiro</a></li>
+                                                <li role="separator" class="divider"></li>
+                                                <li><a href="https://www.aguiabranca.com.br/politica-de-privacidade-e-tratamento-de-dados-pessoais">Política De Privacidade E Tratamento De Dados Pessoais</a></li>
+                                                <li role="separator" class="divider"></li>
+                                                <li><a href="https://www.aguiabranca.com.br/demonstracoes-financeiras">Demonstrações Financeiras</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="https://www.aguiabranca.com.br/fale-conosco">Fale Conosco</a></li>
+                                            <li><a href="https://blog.aguiabranca.com.br/?utm_source=ecommerce&utm_medium=header">Blog</a></li>
+                                            </ul>
+                                    </div><!-- /.navbar-collapse -->
+                    </div><!-- /.container-fluid -->
+                </nav>
+           </div> 
+        </section>
+
+        <section class="container">
+            <div class="row">
+                    <div id="carousel-example-generic" class="carrossel carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+                        </ol>
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <img class="img-responsive" src="assets/img/banner.png" alt="...">
+                                <div class="carousel-caption"></div>
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive" src="assets/img/2.png" alt="...">
+                                <div class="carousel-caption"></div>
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive" src="assets/img/3.png" alt="...">
+                                <div class="carousel-caption"></div>
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive" src="assets/img/4.png" alt="...">
+                                <div class="carousel-caption"></div>
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive" src="assets/img/5.png" alt="...">
+                                <div class="carousel-caption"></div>
+                            </div>
+                        </div>
+                    
+                        <!-- Controls -->
+                        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    
+                        </a>
+                        <div class="form-passagens">
+                            <div class="input-group-2">
+                                <input type="text" id="cidadeOrigem" name="Origem" placeholder="      Cidade de Origem" maxlength="50" required autofocus class="caixa-texto">
+                                <input type="text" id="cidadeDestino" name="destino" placeholder="      Cidade de Destino" maxlength="50" required autofocus class="caixa-texto">
+                                <input class="caixa-data" type="date" name="data" id="txtData" placeholder="Data de Ida" min="2022-07-30" max="2022-12-30" required>
+                                <input class="caixa-data" type="date" name="data" id="txtData" placeholder="opcional" min="2022-07-30" max="2022-12-30">
+                                              
+                                <button type="button" class="box btn" id="btn-buscar" >Buscar Passagem</button>
+                            </div><!-- /input-group -->
+                        </div>
+                    </div>
+                   
+    
+            </div>
+        </section>
+        <!--------------Buscar passagens e Carrosel para telas tablet e mobile----------->
+        <section class="container">
+            <div class="form-passagens-2">
+                <div class="input-group-2">
+                    <input type="text" id="cidadeOrigem" name="Origem" placeholder="Cidade de Origem" maxlength="50" required autofocus class="caixa-texto">
+                    <input type="text" id="cidadeDestino" name="destino" placeholder="Cidade de Destino" maxlength="50" required autofocus class="caixa-texto">
+                    <input class="caixa-data" type="date" name="data" id="txtData" placeholder="Data de Ida" min="2022-07-30" max="2022-12-30" required>
+                    <input class="caixa-data" type="date" name="data" id="txtData" placeholder="opcional" min="2022-07-30" max="2022-12-30">
+                    <select id="select"class="caixa-texto">
+                        <option>Adulto</option>
+                        <option>Criança</option>
+                        <option>Bêbe</option>
+                    </select>
+                    <button type="button" class="box btn" id="btn-buscar" >Buscar Passagem</button>
+                </div><!-- /input-group -->
+            </div>
+        </section>
+        <section class="container">
+            <div class="row">
+                    <div id="carousel-example-generic" class="carrossel-2 carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+                        </ol>
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <img class="img-responsive" src="assets/img/banner.png" alt="...">
+                                <div class="carousel-caption"></div>
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive" src="assets/img/2.png" alt="...">
+                                <div class="carousel-caption"></div>
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive" src="assets/img/3.png" alt="...">
+                                <div class="carousel-caption"></div>
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive" src="assets/img/4.png" alt="...">
+                                <div class="carousel-caption"></div>
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive" src="assets/img/5.png" alt="...">
+                                <div class="carousel-caption"></div>
+                            </div>
+                        </div>
+                    
+                        <!-- Controls -->
+                        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span></a>
+            </div>
+        </section>
+        
+        <!--------------------------Sessão Input Email para promoções ---------------------------------->
+        <section class="container">
+            <div class="form-email">
+                <h3>Fique por dentro de nossas novidades e promoções exclusivas!</h3>
+                <div class="input-group-2">
+                    <label for="nome"></label>
+                    <input id="nome" name="nome" required maxlength="50" type="text" class="form-control" placeholder="Qual é o seu nome?">
+                    <label for="email"></label>
+                    <input type="text" input id="email" name="nome" required maxlength="50" class="form-control" placeholder="Qual é o seu email?">
+                    <button id="btn-enviar">Enviar</button>
+                </div><!-- /input-group -->
+                <p class="texto-sessao-input">Ao se cadastrar você autoriza o recebimento de e-mails promocionais e está de acordo com nossa Política de Privacidade<a href="https://www.aguiabranca.com.br/politica-de-privacidade-e-tratamento-de-dados-pessoais"></a>.</p>
+            </div>
+        </section>      
+
+        <!----------------------------Sessão CARD's-------------------------------->
+        <div class="container">
+            <div class="txt-sessao-cards">
+                <h2>Aqui comprar antecipado é #PAGARMENOS!</h2>
+                <p> Confira os principais destinos feitos para você economizar.</p>
+            </div>    
+        </div>
+
+        <section class="container-card">
+            <div class="row">
+                <div class=" col-sm-4 col-md-3">
+                    <div class="card card-1">
+                        <!-- card-header -->
+                        <div class="card-header">
+                            <img src="https://todepassagem.clickbus.com.br/wp-content/uploads/2020/03/Cristo-Redentor-RJ.jpg" class="card-img" />
+                            <div class="porcentagem-promocao">
+                            <p class="txt-promo"> A partir de</p>
+                            <h3 class="card-preco">59,99</h3>
+                            </div>
+                        </div>
+                        <!-- card-body -->
+                        <div class="card-body">
+                            <p class="card-texto"> Saindo de:</p>
+                            <P class="card-texto-cidade">São Paulo -SP </P>
+                            <p class="card-texto">Indo para:</p>
+                            <p class="card-texto-cidade">Rio de Janeiro -  Rj<p>
+                        </div>
+                        <!-- card-footer -->
+                        <div class="card-footer">
+                            <a href="#">Ver Mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-sm-4 col-md-3">
+                    <div class="card card-1">
+                        <!-- card-header -->
+                        <div class="card-header">
+                            <img src="https://todepassagem.clickbus.com.br/wp-content/uploads/2020/03/Cristo-Redentor-RJ.jpg" class="card-img" />
+                            <div class="porcentagem-promocao">
+                            <p class="txt-promo"> A partir de</p>
+                            <h3 class="card-preco">59,99</h3>
+                            </div>
+                        </div>
+                            <!-- card-body -->
+                            <div class="card-body">
+                                <p class="card-texto"> Saindo de:</p>
+                                <P class="card-texto-cidade">São Paulo -SP </P>
+                                <p class="card-texto">Indo para:</p>
+                                <p class="card-texto-cidade">Rio de Janeiro -  Rj<p>
+                            </div>
+                        <!-- card-footer -->
+                        <div class="card-footer">
+                            <a href="#">Ver Mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-sm-4 col-md-3">
+                    <div class="card card-1">
+                        <!-- card-header -->
+                        <div class="card-header">
+                            <img src="https://todepassagem.clickbus.com.br/wp-content/uploads/2020/03/Cristo-Redentor-RJ.jpg" class="card-img" />
+                            <div class="porcentagem-promocao">
+                            <p class="txt-promo"> A partir de</p>
+                            <h3 class="card-preco">59,99</h3>
+                            </div>
+                        </div>
+                            <!-- card-body -->
+                            <div class="card-body">
+                                <p class="card-texto"> Saindo de:</p>
+                                <P class="card-texto-cidade">São Paulo -SP </P>
+                                <p class="card-texto">Indo para:</p>
+                                <p class="card-texto-cidade">Rio de Janeiro -  Rj<p>
+                            </div>
+                        <!-- card-footer -->
+                        <div class="card-footer">
+                            <a href="#">Ver Mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-sm-4 col-md-3">
+                    <div class="card card-1">
+                        <!-- card-header -->
+                        <div class="card-header">
+                            <img src="https://todepassagem.clickbus.com.br/wp-content/uploads/2020/03/Cristo-Redentor-RJ.jpg" class="card-img" />
+                            <div class="porcentagem-promocao">
+                            <p class="txt-promo"> A partir de</p>
+                            <h3 class="card-preco">59,99</h3>
+                            </div>
+                        </div>
+                            <!-- card-body -->
+                        <div class="card-body">
+                            <p class="card-texto"> Saindo de:</p>
+                            <P class="card-texto-cidade">São Paulo -SP </P>
+                            <p class="card-texto">Indo para:</p>
+                            <p class="card-texto-cidade">Rio de Janeiro -  Rj<p>
+                        </div>
+                        <!-- card-footer -->
+                        <div class="card-footer">
+                            <a href="#">Ver Mais</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+    
+
+        </section>
+
+       
+        <!-------------------------Conteudo Escrito-------------------------------->
+     
+
+        <article class="container">
+            <div class="conteudo">
+                <h1> Na Águia Branca você viaja com segurança!</h1>
+                <p>
+                    Para oferecer mais segurança aos nossos clientes, contamos com estruturas técnicas e operacionais. A seleção dos motoristas é criteriosa, a frota é freqüentemente renovada e a tecnologia sempre atualizada, além de serem aplicados programas de segurança no trânsito.
+                </p>
+                <h2>
+                    Passagem de ônibus online
+                </h2>
+                <p>
+                    Através do nosso site, ficou ainda mais fácil comprar passagem de ônibus online! Você pode viajar com a Passagem Digital sem precisar imprimir, ou ir até uma agência para validá-la.O procedimento é simples, basta apresentar o QR Code no momento do embarque junto a um documento de identificação válido.
+
+                </p>
+            </div>
+        </article>
+
+        <article class=" tipo-poltronas">
+            <div class="poltronas-banner">
+                <h3>Conheça nossos principais tipos de ônibus</h3>
+                <p> Quando o assunto é conforto, nós estamos sempre atentos às novas tecnologias, por isso entenda mais sobre os nossos 5 tipos de ônibus que nos fazem referência em transporte rodoviário.</p>
+                <button id="btn-saibamais" href="https://blog.aguiabranca.com.br/dicas-de-viagem/tipos-de-onibus/conheca-os-principais-tipos-de-onibus-da-aguia-branca/">Saiba mais</button>
+            </div>
+        </article>
+
+        
+        <!-------------------------- Sessão FAQ------------------------------------->
+        <section class="container-fluid ">
+            <div class="faq">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="text-center">Perguntas Frequentes</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingOne">
+                                <h4 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            Como faço para trocar ou cancelar minha passagem de ônibus?</a>
+                                </h4>
+                            </div>
+                            <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                                <div class="panel-body">
+                                            <p>
+                                                A passagem adquirida pelo site poderá ser trocada no próprio site, basta acessar <strong>Minha Conta> Minhas Reservas.</strong> As passagens também podem ser trocadas via SAC ou em uma agência mais próxima. Mas fique atento às regras e prazos para cancelamento e remarcação da sua <strong>passagem de ônibus.</strong>
+                                            </p>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="col-md-3">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingTwo">
+                                <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseThree">
+                                    Posso apresentar a passagem de ônibus pelo celular?
+                                </a>
+                                </h4>
+                            </div>
+                            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                <div class="panel-body">
+                                    <p>Sim. Ao efetuar a compra você receberá seu <strong>bilhete eletrônico</strong> na tela de confirmação e no seu e-mail, e este vale para embarque. O bilhete <strong>pode ser impresso, ou então apresentado diretamente na tela do seu celular.</strong></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingThree">
+                                <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Quais são as formas de pagamento disponíveis pelo site?
+                                </a>
+                                </h4>
+                            </div>
+                            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                <div class="panel-body">
+                                    <p>As formas de pagamento das passagens de ônibus disponíveis pelo site são: Cartão de Débito, PIX ou Cartão de crédito das seguintes bandeiras: Visa, Mastercard, Hipercard, American Express, Diners Club, Elo e Aura.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingFour">
+                                <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    A partir de quantos anos crianças podem viajar sozinhas de ônibus?
+                                </a>
+                                </h4>
+                            </div>
+                            <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                                <div class="panel-body">
+                                    <p>Crianças ou adolescentes menores de 16 anos devem apresentar uma autorização judicial para viajarem sozinhas. A autorização pode ser feita no Juizado da Infância e Juventude e precisa ser autenticada em cartório (reconhecimento de firma).</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-------------------------- Sessão PANEIS------------------------------------->
+        <section class="container">
+            <div class="sessao-panel">
+                <div class="panel panel-default">
+                    <div class="panel-body-1">
+                        <figure>
+                            <img  class="img-responsive" src="assets/img/call.png" alt="Simbolo de ligação">
+                        </figure>
+                        <h3>Atendimento On-line exclusivo para deficientes auditivos</h3>
+                        <a id="btn-panel-1" class="btn btn-primary" href="https://rjigb7-vab.suac.com.br/" role="button"><span class="glyphicon glyphicon-arrow-right
+                            glyphicon glyphicon-" aria-hidden="true"></span></a>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-body-2">
+                        <h3> Formas de Pagamento</h3>
+                        <ul>
+                            <a href="https://www.aguiabranca.com.br/formas-de-pagamento"><img class="card-bandeiras" src="https://cdn.icon-icons.com/icons2/2245/PNG/512/credit_card_visa_payment_method_icon_134914.png" alt="Cartao Visa"></a>
+
+                            <a href="https://www.aguiabranca.com.br/formas-de-pagamento"><img class="card-bandeiras" src="https://cdn.icon-icons.com/icons2/2429/PNG/512/mastercard_logo_icon_147265.png" alt="Cartao Mastercard"></a>
+    
+                            <a href="https://www.aguiabranca.com.br/formas-de-pagamento"><img class="card-bandeiras" src="https://cdn.icon-icons.com/icons2/2341/PNG/512/hipercard_payment_method_card_icon_142739.png" alt="Cartao Hipercard"></a>
+    
+                            <a href="https://www.aguiabranca.com.br/formas-de-pagamento"><img class="card-bandeiras" src="https://cdn.icon-icons.com/icons2/1455/PNG/256/amex_99454.png" alt="cartao American Express"></a>
+    
+                            <a href="https://www.aguiabranca.com.br/formas-de-pagamento"><img class="card-bandeiras" src="https://cdn.icon-icons.com/icons2/674/PNG/512/Diners_Club_International_icon-icons.com_60516.png" alt="cartao Diners Club International"></a>
+    
+                            <a href="https://www.aguiabranca.com.br/formas-de-pagamento"><img class="card-bandeiras" src="https://cdn.icon-icons.com/icons2/2342/PNG/512/elo_pament_method_icon_142756.png" alt="Cartão Elo"></a>
+    
+                            <a href="https://www.aguiabranca.com.br/formas-de-pagamento"><img class="card-bandeiras" src="https://www.rendadiaria.com.br/wp-content/uploads/2016/04/sites-que-aceitam-cartC3A3o-aura.jpg" alt="Cartão Aura"></a>
+                        </ul>
+                        <p> Para sua comodidade, nós não cobramos taxa de conveniência para compras de passagens no site e nas agências credenciadas</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <!------------------------ Sessão Dados da Empresa do Footer---------------->
+        <section class="dados-empresa">
+            <div class="content-dados-empresa">
+                <img src="assets/img/logo.svg " class="img-responsive logotipo" alt="logotipo da empresa Aguia Branca">
+            </div>
+            <div>
+                <p><strong>Viacao Aguia Branca S.A</strong></p>
+                <ul>
+                    <li>Av. Mario Gurgel, 5030 | Cariacica - ES - CEP: 29145-901 </li>
+                    <li>CNPJ: 27.486.182/0001-09</li>
+                    <li>Inscricao Estadual: 080.444.20-2 </li>
+                    <li>Telefone: 0800 725 1211</li>
+                    <li>sac@aguiabranca.com.br</li>
+                </ul>
+
+            </div>
+        
+        </section>
+        <!-------------------------SESSÃO MIDIAS SOCIAIS----------------------------->
+        <section class="midias-sociais">
+            <div><h3>Nos encontre em nossas redes sociais</h3></div>
+            <div class="icons-midias-sociais">
+                <a href="https://www.facebook.com/aguiabrancaoficial"><img class="redes-sociais" src="assets/img/icon_facebook.png" alt="Logotipo do Facebbok, a letra F na cor branca"></a>
+                                    
+                <a href="https://twitter.com/viacaoaguiab"><img class="redes-sociais" src="assets/img/icon_twitter.png" alt="Logotipo do Twitter, um Beija-Flor branco"></a>
+                                    
+                <a href="https://www.instagram.com/aguiabranca.oficial/"><img class="redes-sociais" src="assets/img/icon_instagram.png" alt="Logotipo do Instagram, uma câmera fotografica colorida"></a>
+                                    
+                <a href="https://www.youtube.com/channel/UCcf9UjeNCS44YJ8CiNkIPxA"><img class="redes-sociais" src="assets/img/icon_youtube.png" alt="Lootipo do Youtube, um play de reprodução de vídeos.">
+                        </a>
+                                        
+                <a href="https://www.linkedin.com/company/aguia-branca/"><img class="redes-sociais" src="assets/img/icon_linkedin.png" alt="Logotipo do Linkedin, a letra I e N na cor branca"></a>
+                                        
+                <a href="https://blog.aguiabranca.com.br/?utm_source=ecommerce&utm_medium=header"><img class="redes-sociais" src="assets/img/icon_blog.png" alt="Uma tela de Blog"></a>
+            </div>
+        </section>
+        <!-------------------------SESSÃO LINKS DE NAVEGAÇÃO RODAPÉ----------------->
+        <section class="bg-links">
+            <div class="section-links">
+                <div class="section-links-div">
+                    <h4>Para sua viagem</h4>
+                            <ul>
+                            <li><a href="/bagagem">Bagagem</a></li>
+                            <li><a href="/dicas-para-viajar">Dicas para viajar</a></li>
+                            <li><a href="/documentos-para-viajar">Documentos para viajar</a></li>
+                            <li><a href="/noticias">Notícias</a></li>
+                            <li><a href="/bilhete-eletronico">Passagem Digital</a></li>
+                            <li><a href="/regulamentos-promocoes">Regulamentos e Promoções</a></li><li><a href="https://blog.aguiabranca.com.br/?utm_source=ecommerce&amp;utm_medium=footer" target="_blank">Blog Águia Branca</a></li>
+                            </ul>
+        
+                </div>
+                <div class="section-links-div">
+                    <h4>Viaje sem dúvidas</h4>
+                            
+                    <ul>
+                    <li><a href="/duvidas-frequentes">Dúvidas frequentes</a></li>
+                    <li><a href="/formas-de-pagamento">Formas de Pagamento</a></li>
+                    <li><a href="/gratuidade-de-passagens">Gratuidade nas Passagens</a></li><li><a href="/politica-de-privacidade-e-tratamento-de-dados-pessoais">Política de Privacidade e Tratamento de Dados Pessoais</a></li>
+                    <li><a href="/seguro-intermunicipal">Seguro intermunicipal</a></li><li><a href="/regulamento-seguro-interestadual-facultativo">Seguro Interestadual Facultativo</a></li>
+                    <li><a href="/troca-remarcacao-e-cancelamento">Troca, Remarcação e Cancelamentos</a></li>
+                    <li><a href="/viagem-com-criancas-e-adolescentes">Viagem com crianças e adolescentes</a></li>
+                    <li><a href="/viagem-com-animais">Viagens com animais</a></li>
+                    </ul>
+                </div>
+                <div class="section-links-div">
+                    <h4>Sobre nós</h4>
+                            <ul>
+                                <li><a href="/quem-somos">Quem Somos</a></li>
+                                <li><a href="/nossa-historia">Nossa História</a></li>
+                                <li><a href="/grupo-aguia-branca">Grupo Águia Branca</a></li>
+                                <li><a href="/nossa-frota">Nossa frota</a></li>
+                                <li><a href="/seguranca">Segurança</a></li>
+                                <li><a href="/expresso-brasileiro">Expresso Brasileiro</a></li>
+                                <li><a href="/miniaturas-de-onibus">Miniaturas de ônibus</a></li>
+                                <li><a href="/programa-de-integridade">Programa de Integridade</a></li>
+                                <li><a href="/documentos-legais">Documentos Legais</a></li>
+                                <li><a href="/medias/560-Midia-Kit-Aguia-Branca-2016-Site.pdf?context=bWFzdGVyfGltYWdlc3wyMzg2MDc4fGFwcGxpY2F0aW9uL3BkZnxoNDAvaGRlLzg4MDI1NDk2NjE3MjYvNTYwLU1pZGlhIEtpdCBBZ3VpYSBCcmFuY2EgMjAxNiAtIFNpdGUucGRmfDEzZmQ2YjA2NzI4YjRjNWIxNzY5MzUxNjg4NzEyMjgxYjI4YzYzNGNiOGI0YThjNGE1OTEwN2FiYjZhNmJiYjE">Anuncie conosco</a></li>
+                                <li><a href="/parceiros">Parceiros</a></li>
+                                <li><a href="https://aguiabranca.empregare.com/pt-br/home">Trabalhe conosco</a></li>
+                            </ul>
+                </div>
+                <div class="section-links-div">
+                    <h4>Serviços</h4>
+                            <ul>
+                                <li><a href="/encomendas" target="_blank">Encomendas</a></li>
+                                <li><a href="/aluguel-de-onibus">Aluguel de ônibus</a></li>
+                                <li><a href="/venda-de-onibus">Venda de Ônibus</a></li>
+                            </ul>
+                            <h4>Contato</h4>
+                            <ul>
+                                <li><a href="/agencias-autorizadas2">Agências Autorizadas</a></li>
+                                <li><a href="/contato">Fale Conosco</a></li>
+                                <li><a href="/telefones">Atendimento</a></li><li><a href="https://privacyportal-br.onetrust.com/webform/1ab75064-3e1c-4782-9f00-b43a2c7ef7a2/f01b4349-c7f1-4e18-a770-cedf149671a8" target="_blank">Portal de Privacidade</a></li>
+                            </ul>
+        
+                </div>
+            </div>
+        </section>
+
+            <div class="rodape-mobile">
+                    <ul>  
+                        </li><li><a href="/documentos-legais">Documentos Legais</a></li>
+                        <li><a href="/duvidas-frequentes">Dúvidas frequentes</a></li>
+                        <li><a href="/grupo-aguia-branca">Grupo Aguia Branca</a></li>
+                        <li><a href="/miniaturas-de-onibus">Miniaturas de ônibus</a></li>
+                        <li><a href="/noticias">Notícias</a></li>
+                        <li><a href="/parceiros">Parceiros</a></li><li><a href="/politica-de-privacidade-e-tratamento-de-dados-pessoais">Política de Privacidade e Tratamento de Dados Pessoais</a>
+                        </li><li><a href="/regulamentos-promocoes">Regulamentos e Promoções</a></li>
+                        <li><a href="/seguro-intermunicipal">Seguro intermunicipal</a></li><li><a href="/regulamento-seguro-interestadual-facultativo">Seguro Interestadual Facultativo</a></li>
+                        <li><a href="https://aguiabranca.empregare.com/pt-br/home">Trabalhe conosco</a></li>
+                        <li><a href="https://privacyportal-br.onetrust.com/webform/1ab75064-3e1c-4782-9f00-b43a2c7ef7a2/f01b4349-c7f1-4e18-a770-cedf149671a8" target="_blank">Portal de Privacidade</a></li>
+                        <li><a href="https://blog.aguiabranca.com.br/?utm_source=ecommerce&amp;utm_medium=footer" target="_blank">Blog Águia Branca</a></li>
+                        <li><a href="/medias/560-Midia-Kit-Aguia-Branca-2016-Site.pdf?context=bWFzdGVyfGltYWdlc3wyMzg2MDc4fGFwcGxpY2F0aW9uL3BkZnxoNDAvaGRlLzg4MDI1NDk2NjE3MjYvNTYwLU1pZGlhIEtpdCBBZ3VpYSBCcmFuY2EgMjAxNiAtIFNpdGUucGRmfDEzZmQ2YjA2NzI4YjRjNWIxNzY5MzUxNjg4NzEyMjgxYjI4YzYzNGNiOGI0YThjNGE1OTEwN2FiYjZhNmJiYjE">Anuncie conosco</a></li>
+                    </ul>
+            </div>
+            
+       
+        <!-------------------------FIM----------------------------------------------->
+
+        <!-------------------------SESSÃO COPYRIGHT---------------------------------->
+        <section class="container-fluid" id="copy">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>2022 @Copyright Grupo Aguia Branca</p>
+                </div>
+            </div>
+        </section>
+
+    </footer>
+
+
+    <!-- BOTÃO WHATSAPP-->
+    <div id="div-fixa" class="flutuar" data-shrink="yes">
+        <a href="https://api.whatsapp.com/send?phone=00000000000" target="_blank">
+            <div class="flex-itens">
+                <img src="https://cdn-icons-png.flaticon.com/512/5968/5968841.png" alt="clique para comprar com um vendeddor online">
+                <span>Compre com um vendedor online</span>
+            </div>
+        </a>
+    </div>
+    <!--   FIM  Whatsapp-->
+
+    <!--    Scrool suave volta ao topo-->
+    <div data-scroll=" suave" data-anima="scroll" class="#">
+        <a href="#topo">
+            <div class="topo">
+                <img id="icone-voltatopo" src="https://cdn-icons-png.flaticon.com/512/7604/7604589.png" alt="Clique no ícone para voltar ao topo">
+
+            </div>
+
+        </a>
+    </div>
+     <!--     FIM Scrool suave volta ao topo-->
+</body>
+</html>
